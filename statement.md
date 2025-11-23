@@ -1,8 +1,8 @@
-🩸 Problem Statement 
+## PROBLEM STATEMENT 
 
 Managing a blood bank's inventory is a critical process that requires accurate tracking of available blood units and a rapid, error-free method for determining blood compatibility when units are requested. Manual tracking or reliance on complex external systems can lead to delays in dispensing life-saving blood units, stock imbalances (overstocking or critical shortages), and potential errors in matching donor and recipient blood types, which can have severe medical consequences. There is a need for a simple, automated system to efficiently manage inventory and ensure correct compatibility checks.
 
-🎯 Scope of the Project 
+## SCOPE OF THE PROJECT
 
 This project implements a command-line application for managing a small-scale blood bank inventory. The system is scoped to handle the core functionalities of:
 
@@ -14,7 +14,7 @@ Compatibility Check & Dispensing: Automatically determining which blood types fr
 
 The project is out of scope for managing patient or donor records, scheduling, advanced supply chain management, or integrating with real-time hospital systems.
 
-👤 Target Users 
+## TARGET USERS
 
 The primary target users are personnel responsible for the day-to-day operation of a blood bank or a blood storage facility:
 
@@ -22,7 +22,7 @@ Blood Bank Technicians/Staff: Who perform the duties of receiving donated units 
 
 Inventory Managers: Who need a quick overview of current stock levels for strategic management and reordering.
 
-✨ High-Level Features 
+## HIGH-LEVEL FEATURES 
 
 Persistent Inventory Tracking: Stores and retrieves the count of blood units for all 8 blood types using a local CSV file.
 
