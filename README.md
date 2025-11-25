@@ -31,47 +31,47 @@ Example: If a recipient needs A+, the system checks inventory for A+, A-, O+, an
 1. Prerequisites
    You must have Python 3.x installed on your machine.
 2. Installation
-   A.Download the file blooddndprgm.py.
-   B.Place the file in a folder where you have write permissions (the script needs to create a CSV file in the same directory).
+   A. Download the file blooddndprgm.py.
+   B. Place the file in a folder where you have write permissions (the script needs to create a CSV file in the same directory).
 3. Running the Application
-   A.Open your terminal (Command Prompt, PowerShell, or Terminal).
-   B.Navigate to the directory containing the script.
-   C.Run the following command:
+   A. Open your terminal (Command Prompt, PowerShell, or Terminal).
+   B. Navigate to the directory containing the script.
+   C. Run the following command:
        Bash
        python blooddndprgm.py
-   D.On the first run, the system will automatically create a file named blood_inventory.csv with default stock values.
+   D. On the first run, the system will automatically create a file named blood_inventory.csv with default stock values.
 
 ## Instructions for Testing
 To ensure the system is working correctly, follow these testing steps:
 
 Test 1: Verify Initial Load
 
- A.Run the program.
- B.Select Option 1 (Display Current Inventory).
- C.Verify that you see a list of blood types with default values (e.g., O- should have 15 units).
+ A. Run the program.
+ B. Select Option 1 (Display Current Inventory).
+ C. Verify that you see a list of blood types with default values (e.g., O- should have 15 units).
 
 Test 2: Receive a Donation
 
- A.Select Option 2 (Receive New Units).
- B.Enter Blood Type: O- (Universal Donor).
- C.Enter Units: 5.
- D.The system should confirm the addition. Check Option 1 again to ensure O- is now 20 units (15 + 5).
+ A. Select Option 2 (Receive New Units).
+ B. Enter Blood Type: O- (Universal Donor).
+ C. Enter Units: 5.
+ D. The system should confirm the addition. Check Option 1 again to ensure O- is now 20 units (15 + 5).
 
 Test 3: Test Compatibility & Dispensing
 
- A.Select Option 3 (Dispense Units).
- B.Enter Recipient Blood Type: B+.
- C.The system should list compatible donors: B+, B-, O+, O-.
- D.Select a donor type from the list (e.g., O+).
- E.Enter an amount to dispense (e.g., 2).
- F.The system should confirm the dispense action.
+ A. Select Option 3 (Dispense Units).
+ B. Enter Recipient Blood Type: B+.
+ C. The system should list compatible donors: B+, B-, O+, O-.
+ D. Select a donor type from the list (e.g., O+).
+ E. Enter an amount to dispense (e.g., 2).
+ F. The system should confirm the dispense action.
 
 Test 4: Verify Persistence
 
- A.Select Option 4 to exit the program.
- B.Run the program again (python blooddndprgm.py).
- C.Select Option 1.
- D.Verify that the changes made in Test 2 and Test 3 are still present (The inventory should not have reset to default).
+ A. Select Option 4 to exit the program.
+ B. Run the program again (python blooddndprgm.py).
+ C. Select Option 1.
+ D. Verify that the changes made in Test 2 and Test 3 are still present (The inventory should not have reset to default).
 
 # AUTHOR 
  PRASHANT TAPARIA 
